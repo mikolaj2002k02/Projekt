@@ -1,0 +1,377 @@
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+    background-image:
+    linear-gradient(#A4B494, #7BA683, #717744 ), url("https://localhost/project/images/background.jpg");
+
+}
+#clear{
+  clear: both;
+}
+.header {
+display: flex;
+    text-align: right;
+    height: 50px;
+    background-color: #7BA683;
+
+}
+.header a {
+  margin: 5px;
+  text-decoration: none;
+  color: #373D20;
+  font-size: 20px;
+}
+.header a:hover{
+  color: white;
+}
+.header-content {
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+}
+
+.button{
+  background-color: #717744;
+  border: 2px solid black;;
+  color: black;
+  padding: 7px 20px;
+  text-align: center;
+
+  }
+  .button:hover {
+    background-color: #939787;
+    color: white;
+  }
+.splide{
+  align-content: center;
+  text-align: center;
+}
+.topka2 {
+    display: flex;
+    background-color: white;
+        height: 60vh;
+        outline: 3px solid #373D20;
+    }
+
+  .slider{
+  height: 500px;
+ }
+ 
+.slider img{
+  width: 1600px;
+  height: 500px;
+}
+
+.services {
+  text-align: center;
+  align-content: center;
+background-color: #82a67b;
+  height: 30vh;
+  padding: 10px;
+  outline: 3px solid #373D20;
+  
+}
+.motto {
+  text-align: center;
+  align-content: center;
+background-color: #82a67b;
+  height: 30vh;
+  padding: 10px;
+  outline: 3px solid #373D20;
+  
+}
+.kontakty {
+background-color: #7BA683;
+  height: 30vh;
+  padding: 10px;
+  outline: 3px solid #373D20;
+  align-content: center;
+  text-align: center;
+  
+}
+.otwarcie {
+  background-color: #7BA683;
+    height: 30vh;
+    padding: 10px;
+  }
+  .otwarcie img {
+    height: 150px;
+    width: 150px;
+    }
+.services-icons{
+  text-align: center;
+  align-content: center;       
+  margin: 30px;
+  float: left;
+  
+
+}
+.services-icons img{
+  height: 65px;
+  width: 65px;
+   float: left;
+   
+}
+
+
+  p{
+      font-size:20px;
+      color: #373D20;
+  }
+  .reviews {
+        
+    background-color: #7BA683;
+        height: 60vh;
+        width: 25%;
+        font-size: 15px;
+    
+    }
+    .reviews h6{
+      color: #373D20;
+    }
+    .reviews-second-part {
+      display: flex;
+      text-align: center;
+  background-color: #7BA683;
+      height: 60vh;
+      width: 50%;
+      align-content: center;
+  
+  }
+  .reviews-second-part img{
+        margin: 20px;
+        height: 55vh;
+  }
+  #panel {
+    width: 500px; 
+    margin: auto; 
+    background-color: #7BA683;
+    outline: 4px solid #BEC5AD;
+    border: 1px solid #BEC5AD;
+    }
+  
+    
+    label {
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    }
+        #username, #password, #email {
+        display: block;
+        width: 400px; 
+        margin: auto;
+        padding: 7px;
+        outline: 3px solid #315052;
+        font-size: 15px;
+        }
+
+  #high{
+    color: black;
+  align-content: center;
+  text-align: center;
+  }
+  #low{
+    align-content: center;
+    text-align: center;
+  }
+  .userh {
+    display: flex;
+        text-align: right;
+        height: 50px;
+        background-color: #7BA683;
+    
+    }
+    .userh a {
+      margin: 10px;
+      text-decoration: none;
+      color: #373D20;
+      font-size: 20px;
+    }
+    .userh a:hover{
+      color: white;
+    }
+    .userh-content {
+      display: flex;
+      margin: 0 auto;
+      display: flex;
+    }
+    .userh input[type=text] {
+      padding: 1px;
+      margin-top: 1px;
+      font-size: 20px;
+      border: none;
+      background-color:#717744 ;
+      color: #7BA683 ;
+    }
+    .buttonu{
+      background-color: #717744;
+      border: 2px solid black;;
+      color: black;
+      padding: 4px 5px;
+      text-align: center;
+      font-size: 20px;
+      height: 40px;
+      width: 100px;
+      }
+      .buttonu:hover {
+        background-color: #939787;
+        color: white;
+      }
+#clock{
+  text-align: center;
+        height: 30px;
+        background-color:#82a67b ;
+        color: #373D20;
+        padding: 70px;
+        font-size: 60px;
+       }
+
+      .termins{
+        height: 700px;
+        background-color:#7BA683 ;
+        outline: 3px solid #373D20;
+        color: white;
+        padding: 50px;
+       }
+
+       .termins-content{
+        margin: 20px;
+         float: left;
+         height: 250px;
+         width: 200px;
+         outline: 3px solid #373D20;
+         align-content: center;
+         text-align: center;
+       }
+       
+       .buttont{
+        background-color: #717744;
+        border: 2px solid black;;
+        color: black;
+        padding: 4px 5px;
+        text-align: center;
+        font-size: 20px;
+        height: 70px;
+        width: 100px;
+        }
+       .icons{
+         
+         margin: 30px;
+         float: left;
+
+       }
+       .icons img{
+         height: 65px;
+         width: 65px;
+          float: left;
+       }
+       .register{
+         text-align: center;
+       }
+       .register a{
+        text-decoration: none;
+       }
+       .login{
+        text-align: center;
+      }
+      .login a{
+       text-decoration: none;
+      }
+       .support{
+         text-align: center;
+       }
+       .support a {
+        text-decoration: none;
+       }
+
+       .first_picture:hover .image {
+        opacity: 1;
+        -webkit-animation: flash 1.5s;
+        animation: flash 1.5s;
+      }
+
+      .forumh {
+       
+            text-align: center;
+            height: 150px;
+            background-color: #7BA683;
+        
+        }
+        .forumh-content {
+          display: flex;
+          margin: 0 auto;
+          display: flex;
+        }
+        .buttonf{
+          background-color: #717744;
+          border: 2px solid black;;
+          color: black;
+          padding: 4px ;
+      
+          font-size: 20px;
+          height: 40px;
+          width: 400px;
+          }
+          .buttonf:hover {
+            background-color: #939787;
+            color: white;
+          }
+          #clockf{
+          
+                  height: 20px;
+                  background-color:#82a67b ;
+                  color: black;
+                  padding: 80px;
+                  font-size: 40px;
+                 }
+        .buttonc{
+          background-color: black;
+          border: 2px solid white;;
+          color: white;
+          font-size: 15px;
+          height: 50px;
+          width: 300px;
+          }
+          .buttonc:hover {
+            background-color: #939787;
+            color: white;
+          }
+          .questions{
+            height: 100px;
+            background-color:#7BA683 ;
+            outline: 25px solid #373D20;
+            color: white;
+            padding: 60px;
+            text-align: center;
+           }
+           .answers{
+            height: 100px;
+            background-color:#82a67b ;
+            outline: 2px solid #373D20;
+            color: white;
+            padding: 50px;
+            text-align: center;
+           }
+        
+        
+
+      @-webkit-keyframes flash {
+        0% {
+          opacity: .4;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes flash {
+        0% {
+          opacity: .5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+  
+  
